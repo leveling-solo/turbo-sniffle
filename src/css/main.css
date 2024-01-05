@@ -1,0 +1,121 @@
+
+.Input-task > input {
+    width: 98%;
+    padding: 0.7rem;
+    
+    font-family: Montserrat;
+    font-size: 1.3rem;
+    border: none;
+    font-weight: 900;
+    text-indent: 0.9rem;
+}
+.Input-task > input:focus{
+    border: none;
+    outline: none;
+}
+
+.p{
+     font-family:Dosis ; 
+     font-size: 1.1rem;
+     margin: 1rem 0rem 1rem 0rem;
+}
+
+.category{
+    display: flex;
+    justify-content: space-around;
+}
+.Business{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    width: 20rem;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-around;
+    border-radius: 10px;
+    font-family:Orbitron ;
+    color: blue;
+    box-shadow: 5px 9px 11px black;
+}
+.Business > input[type="radio"]{
+    transform: scale(1.7);
+    margin-top: 0.5rem;
+    color: yellow;
+}
+
+.personal{
+    display: flex;
+    flex-direction: column;
+    height: 8rem;
+    width: 20rem;
+    align-items: center;
+    font-size: 2rem;
+    justify-content: space-around;
+    border-radius: 10px;
+    box-shadow: 5px 9px 11px black;
+    font-family:Orbitron ;
+    color: orange;
+}
+.personal > input[type="radio"]{
+    transform: scale(1.7);
+    margin-top: 0.5rem;
+    color: orange;
+}
+button{
+    width: 96%;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 9px;
+    outline: none;
+    border: none;
+    background-color: red;
+    font-size: 1.2rem;
+    font-family:Montserrat ;
+    font-weight: 900;
+}
+/*
+Now , css for dyanmically createElement  
+ */
+
+.task-element{
+   margin: 0.4rem; 
+   padding: 0.7rem;
+   border-radius: 8px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+.Edit-btn{
+    background-color:green;
+}
+.done-btn{
+    background-color:green;
+}
+.circle{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-right: 0.5rem;
+    align-self: center;
+    cursor: pointer;
+    transition: background-color 0.3 ease ; ;
+
+}
+
+.input{
+    display: flex;
+}
+.input > p{
+    font-size: 1.3rem;
+    font-family:Cinzel;
+    font-weight: bolder;
+    width: 25rem;
+}
+
+/* css for when edit button is clicked button */

@@ -1,0 +1,63 @@
+@media screen and (max-width : 600px) {
+   *{
+    padding : 0;  
+    margin : 0 ; 
+    box-sizing:  border-box;
+   }
+   @font-face {
+    font-family: super;
+    src: url("../font/MADE\ Future\ X\ HEADER\ Bold\ PERSONAL.otf");
+   }
+  h1 {
+    background-color: red;
+    height: 100%;
+    padding: 2vw;
+    font-family: super;
+    text-align: center;
+ }
+ .container{
+    width: 100%;
+    margin: 0rem;
+    padding: 5vw;
+ }
+.Heading{
+    display: flex;
+}
+
+.Heading >h2{
+    margin-right: 0.3rem;
+    font-size: 4vw;
+    font-family:Montserrat;
+    align-self: center;
+    margin-left: 0.4vw;
+    width: 40%;
+}
+.Heading > input{
+    border: none;
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 0.4rem 0rem;
+    background-color: aqua;
+    font-family:Montserrat; 
+    font-weight: 900;
+    color: gray;
+
+    align-self: center;
+}
+.Heading > input:focus{
+    outline: none;
+    border: none;
+}
+
+/* css for class = SecondHeading */
+
+.secondHeading > h3{
+    font-family: Montserrat;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.secondHeading > p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+}
+}
